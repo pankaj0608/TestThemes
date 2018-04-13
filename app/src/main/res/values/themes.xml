@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="MyTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">36dp</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+        <item name="myEditTextStyle">@style/styleOne</item>
+    </style>
+
+    <style name="buttonStyle1" parent="MyTheme1">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+    </style>
+
+
+    <style name="MyTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">60dp</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="myEditTextStyle">@style/styleTwo</item>
+    </style>
+</resources>
