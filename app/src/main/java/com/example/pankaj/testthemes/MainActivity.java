@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         if(theme1) {
-            setTheme(R.style.MyTheme2);
+            setTheme(R.style.MyTheme_Orange_Small);
             theme1 = false;
         }
         else {
-            setTheme(R.style.MyTheme1);
+            setTheme(R.style.MyTheme_Orange_Large);
             theme1 = true;
         }
 
